@@ -4,24 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="200dp"
+    android:layout_margin="50dp"
     android:orientation="vertical"
     tools:context=".LogicalActivity">
 
-    <EditText
-        android:id="@+id/a_txt"
-        android:layout_width="wrap_content"
+    <SeekBar
+        android:id="@+id/a_sb"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#D7FFC107"
         android:ems="10"
         android:inputType="number" />
 
-    <EditText
-        android:id="@+id/b_txt"
-        android:layout_width="wrap_content"
+    <SeekBar
+        android:id="@+id/b_sb"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="100dp"
         android:ems="10"
         android:inputType="number" />
 
